@@ -25,7 +25,11 @@
 header {
   box-shadow: 0 0 0 0 #eeee;
   box-shadow: -1px -5px 17px 4px #eeee;
-  
+  position: sticky;
+  z-index: 9999;
+  top: 2px;
+  width: 100%;
+  background-color: #ffffff;
 }
 header nav i {
   margin: auto;
